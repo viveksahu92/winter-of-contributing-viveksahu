@@ -705,3 +705,12 @@ las pestañas del framework. */
   vertical-align: middle;
   text-align: center;
 }
+
+/* AI-generated styles for text truncation with ellipsis */
+input.form-control.ai-style-change-1,
+input.form-control.ai-style-change-3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
